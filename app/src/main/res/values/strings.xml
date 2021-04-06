@@ -5,4 +5,6 @@
     <string name="firstButtonText">Кнопки и табуретки</string>
     <string name="secondButtonText">Поля выпыса ввода</string>
     <string name="thirdButtonText">Чекбокс на радио</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
