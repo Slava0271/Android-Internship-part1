@@ -7,4 +7,11 @@
     <string name="thirdButtonText">Чекбокс на радио</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InputFieldTextView">Поля ввода разного типа</string>
+    <string name="firstHintText">Однострочный текст</string>
+    <string name="onFiveStringsText">Текст на 5 строк</string>
+    <string name="password">password field</string>
+    <string name="passwordText">12345678</string>
+    <string name="numbers">1980</string>
+    <string name="hideKeyboard">Спрятать клавиатуру</string>
 </resources>

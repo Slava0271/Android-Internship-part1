@@ -1,11 +1,17 @@
 package com.example.android_internship
 
+import android.app.Activity
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.inputmethod.InputMethodManager
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentTransaction
+import kotlinx.android.synthetic.main.fragment_input_fields.*
 import kotlinx.android.synthetic.main.fragment_main.*
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,11 +35,37 @@ class MainFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
+    private fun addClickListenersForButton(){
+        val listOfButtons: ArrayList<View> = arrayListOf<View>(
+                firstButtonMainWindow,
+                secondButtonMainWindow,
+                thirdButtonMainWindow
+        )
+        listOfButtons.forEach { v ->
+            v.setOnClickListener() {
+                when(v.id){
+                    R.id.secondButtonMainWindow ->{
+                        val fragment:Fragment = InputFields()
+                        changeFragment(fragment)
+                    }
+                }
+            }
+        }
+    }
 
+    private fun changeFragment(fragment: Fragment) {
+        val fragmentManager: FragmentManager = this.requireActivity().supportFragmentManager
+        val fragmentTransaction: FragmentTransaction = fragmentManager.beginTransaction()
+        fragmentTransaction.replace(R.id.fragment, fragment)
+        this.requireActivity().supportFragmentManager.executePendingTransactions();
+        fragmentTransaction.commit()
+    }
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         setImage()
+        addClickListenersForButton()
     }
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -66,4 +98,5 @@ class MainFragment : Fragment() {
                 }
             }
     }
+
 }

@@ -9,5 +9,14 @@
         android:id="@+id/mainFragment"
         android:name="com.example.android_internship.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" />
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_inputFields"
+            app:destination="@id/inputFields" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputFields"
+        android:name="com.example.android_internship.InputFields"
+        android:label="fragment_input_fields"
+        tools:layout="@layout/fragment_input_fields" />
 </navigation>
