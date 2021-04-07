@@ -1,15 +1,12 @@
 package com.example.android_internship
 
-import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.InputMethodManager
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-import kotlinx.android.synthetic.main.fragment_input_fields.*
 import kotlinx.android.synthetic.main.fragment_main.*
 
 
@@ -35,7 +32,7 @@ class MainFragment : Fragment() {
             param2 = it.getString(ARG_PARAM2)
         }
     }
-    private fun addClickListenersForButton(){
+    private fun addClickListenersForButtons(){
         val listOfButtons: ArrayList<View> = arrayListOf<View>(
                 firstButtonMainWindow,
                 secondButtonMainWindow,
@@ -46,6 +43,10 @@ class MainFragment : Fragment() {
                 when(v.id){
                     R.id.secondButtonMainWindow ->{
                         val fragment:Fragment = InputFields()
+                        changeFragment(fragment)
+                    }
+                    R.id.thirdButtonMainWindow->{
+                        val fragment:Fragment=CheckBoxes()
                         changeFragment(fragment)
                     }
                 }
@@ -63,7 +64,7 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         setImage()
-        addClickListenersForButton()
+        addClickListenersForButtons()
     }
 
 

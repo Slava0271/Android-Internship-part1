@@ -14,4 +14,12 @@
     <string name="passwordText">12345678</string>
     <string name="numbers">1980</string>
     <string name="hideKeyboard">Спрятать клавиатуру</string>
+    <string name="textViewThirdFragment">Кнопка приборы отображает приборы</string>
+    <string name="devices">Приборы</string>
+    <string name="turnOffRadio">Выключить радио</string>
+    <string name="disableSlider">Выключить ползунок</string>
+    <string name="variant1">Вариант 1</string>
+    <string name="variant2">Вариант 2</string>
+    <string name="variant3">Вариант 3</string>
+    <string name="chooseRadioVariant">Выбрать вариант по радио</string>
 </resources>
