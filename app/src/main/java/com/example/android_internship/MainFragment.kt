@@ -49,6 +49,10 @@ class MainFragment : Fragment() {
                         val fragment:Fragment=CheckBoxes()
                         changeFragment(fragment)
                     }
+                    R.id.firstButtonMainWindow->{
+                        val fragment:Fragment=BlankAddButtons()
+                        changeFragment(fragment)
+                    }
                 }
             }
         }

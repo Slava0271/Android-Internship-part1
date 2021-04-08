@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_mainFragment_to_checkBoxes"
             app:destination="@id/checkBoxes" />
+        <action
+            android:id="@+id/action_mainFragment_to_blankAddButtons"
+            app:destination="@id/blankAddButtons" />
     </fragment>
     <fragment
         android:id="@+id/inputFields"
@@ -27,4 +30,9 @@
         android:name="com.example.android_internship.CheckBoxes"
         android:label="fragment_check_boxes"
         tools:layout="@layout/fragment_check_boxes" />
+    <fragment
+        android:id="@+id/blankAddButtons"
+        android:name="com.example.android_internship.BlankAddButtons"
+        android:label="fragment_blank_add_buttons"
+        tools:layout="@layout/fragment_blank_add_buttons" />
 </navigation>
