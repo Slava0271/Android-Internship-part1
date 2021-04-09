@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Android-Internship</string>
+    <string name="Hello">Привет</string>
+    <string name="world">МИР</string>
+    <string name="firstButtonText">Кнопки и табуретки</string>
+    <string name="secondButtonText">Поля выпыса ввода</string>
+    <string name="thirdButtonText">Чекбокс на радио</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="InputFieldTextView">Поля ввода разного типа</string>
+    <string name="firstHintText">Однострочный текст</string>
+    <string name="onFiveStringsText">Текст на 5 строк</string>
+    <string name="password">password field</string>
+    <string name="passwordText">12345678</string>
+    <string name="numbers">1980</string>
+    <string name="hideKeyboard">Спрятать клавиатуру</string>
+    <string name="textViewThirdFragment">Кнопка приборы отображает приборы</string>
+    <string name="devices">Приборы</string>
+    <string name="turnOffRadio">Выключить радио</string>
+    <string name="disableSlider">Выключить ползунок</string>
+    <string name="variant1">Вариант 1</string>
+    <string name="variant2">Вариант 2</string>
+    <string name="variant3">Вариант 3</string>
+    <string name="chooseRadioVariant">Выбрать вариант по радио</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="textViewFirstFragment">Кнопка плюс добавляет новую кнопку в контейнер наверху</string>
+    <string name="buttonNumber1">Кнопка номер раз</string>
 </resources>
