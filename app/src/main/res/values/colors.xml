@@ -11,4 +11,5 @@
     <color name="blue">#FF0000FF</color>
     <color name="layout_color">#FF3CB371</color>
     <color name="silver">#FFA9A9A9</color>
+    <color name="light_silver">#FFD3D3D3</color>
 </resources>
