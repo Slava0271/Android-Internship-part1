@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stroke_width">1dp</dimen>
+    <dimen name="button_corners">30dp</dimen>
+    <dimen name="layout_corners">10sp</dimen>
+    <dimen name="stroke_layout">1dp</dimen>
+</resources>

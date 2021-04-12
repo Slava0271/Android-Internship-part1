@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">Android-Internship</string>
-    <string name="Hello">Привет</string>
+    <string name="hello">Привет</string>
     <string name="world">МИР</string>
-    <string name="firstButtonText">Кнопки и табуретки</string>
-    <string name="secondButtonText">Поля выпыса ввода</string>
-    <string name="thirdButtonText">Чекбокс на радио</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="buttonsAndStools">Кнопки и табуретки</string>
+    <string name="inputFields">Поля выпыса ввода</string>
+    <string name="checkboxesAndRadio">Чекбокс на радио</string>
 </resources>

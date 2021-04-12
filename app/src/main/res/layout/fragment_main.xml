@@ -7,11 +7,11 @@
     tools:context=".MainFragment">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textViewHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="@string/Hello"
+        android:text="@string/hello"
         android:textColor="@color/black"
         android:textSize="40sp"
         android:textStyle="bold|normal"
@@ -20,19 +20,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/mainWindowImage"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHeight_percent="0.3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHello"
         app:layout_constraintWidth_percent="0.3"
         tools:srcCompat="@drawable/image" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewWorld"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
@@ -42,7 +42,7 @@
         android:text="@string/world"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/mainWindowImage" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/firstButtonMainWindow"
@@ -52,11 +52,11 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/button_style"
-        android:text="@string/firstButtonText"
+        android:text="@string/buttonsAndStools"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewWorld" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/secondButtonMainWindow"
@@ -66,7 +66,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/button_style"
-        android:text="@string/secondButtonText"
+        android:text="@string/inputFields"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,7 +80,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:background="@drawable/button_style"
-        android:text="@string/thirdButtonText"
+        android:text="@string/checkboxesAndRadio"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
