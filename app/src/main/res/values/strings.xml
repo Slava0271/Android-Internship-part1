@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android-Internship</string>
+    <string name="hello">Привет</string>
+    <string name="world">МИР</string>
+    <string name="buttonsAndStools">Кнопки и табуретки</string>
+    <string name="inputFields">Поля выпыса ввода</string>
+    <string name="checkboxesAndRadio">Чекбокс на радио</string>
 </resources>
