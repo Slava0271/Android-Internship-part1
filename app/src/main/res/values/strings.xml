@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Android-Internship</string>
+    <string name="hello">Привет</string>
+    <string name="world">МИР</string>
+    <string name="buttonsAndStools">Кнопки и табуретки</string>
+    <string name="inputFields">Поля выпыса ввода</string>
+    <string name="checkboxesAndRadio">Чекбокс на радио</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inputFieldsDifferentTypes">Поля ввода разного типа</string>
+    <string name="firstHintText">Однострочный текст</string>
+    <string name="onFiveStringsText">Текст на 5 строк</string>
+    <string name="passwordField">password field</string>
+    <string name="passwordText">12345678</string>
+    <string name="numbers">1980</string>
+    <string name="hideKeyboard">Спрятать клавиатуру</string>
+    <string name="fixturesButtonDisplaysFixtures">Кнопка приборы отображает приборы</string>
+    <string name="devices">Приборы</string>
+    <string name="turnOffRadio">Выключить радио</string>
+    <string name="disableSlider">Выключить ползунок</string>
+    <string name="variant1">Вариант 1</string>
+    <string name="variant2">Вариант 2</string>
+    <string name="variant3">Вариант 3</string>
+    <string name="chooseRadioVariant">Выбрать вариант по радио</string>
 </resources>
